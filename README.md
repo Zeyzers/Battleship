@@ -45,4 +45,4 @@ A simple and minimalistic implementation of the classic Battleship game. This pr
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](LICENSE). See `LICENSE` for more information.
