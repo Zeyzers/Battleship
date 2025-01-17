@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 2px;
+    margin: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #87ceeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.hit {
+    background-color: red;
+}
+.miss {
+    background-color: gray;
+}
+.ship {
+    background-color: gray;
+    border: 1px solid #000;
+}
+.player-ship {
+    background-color: #87ceeb;
+    border: 1px solid #000;
+}
+#message {
+    margin-top: 20px;
+}
+.draggable-ship {
+    display: flex;
+    gap: 2px;
+    margin: 10px;
+    cursor: grab;
+}
+.draggable-ship .cell {
+    cursor: grab;
+}
