@@ -32,5 +32,13 @@ A simple and minimalistic implementation of the classic Battleship game. This pr
 ## Tech Stack  
 
 - **Frontend**: HTML, CSS, JavaScript  
-- **Backend (Optional for Multiplayer)**: Node.js, WebSocket for real-time communication  
-- **Hosting**: Can be self-hosted on a home server  
+- **Backend (Multiplayer - not yet implemented)**: Node.js, WebSocket for real-time communication  
+- **Hosting (not yet implemented)**: Can be self-hosted on a home server  
+
+
+## ToDo
+- Fix Reset Button, it doesnt work.
+- Add more logic to the CPU
+- Improve style and interface
+- Add a better end game screen
+- Add a backend to play in multiplayer
